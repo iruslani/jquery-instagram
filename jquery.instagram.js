@@ -32,6 +32,10 @@
                 .addClass('instagram-image')
                 .attr('src', photo.images.thumbnail.url)
             )
+        // add photo caption
+        .append(
+            $('<div>').text(photo.caption.text)
+        )
         );
     }
     
