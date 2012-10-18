@@ -1,4 +1,3 @@
-
 /*
  * Instagram jQuery plugin
  * v0.2.1
@@ -24,7 +23,7 @@
           , maxId: null
           , minId: null
           , next_url: null
-          , image_size: null
+          , image_size: thumbnail
         };
         
     options && $.extend(settings, options);
