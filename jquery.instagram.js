@@ -23,7 +23,7 @@
           , maxId: null
           , minId: null
           , next_url: null
-          , image_size: thumbnail
+          , image_size: 'standard_resolution'
         };
         
     options && $.extend(settings, options);
