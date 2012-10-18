@@ -41,7 +41,7 @@
     }(
 
 // Console.log to see whats going on.
-    console.log(photo.caption.text);
+//    console.log(photo.caption.text);
 
 
 
