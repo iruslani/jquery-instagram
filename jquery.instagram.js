@@ -33,12 +33,18 @@
                 .attr('src', photo.images.thumbnail.url)
             )
         // add photo caption
-        .append(
-            $('<div>').text(photo.caption.text)
-        )
+        //.append(
+        //   $('<div>').text(photo.caption.text)
+        //)
+
         );
-    }
-    
+    }(
+
+// Console.log to see whats going on.
+    console.log(photo.caption.text);
+
+
+
     function createEmptyElement() {
       return $('<div>')
         .addClass('instagram-placeholder')
